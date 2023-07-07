@@ -1,3 +1,4 @@
+/*nav related*/
 nav{
     display: flex;
 }
@@ -10,24 +11,14 @@ body{
     color: #FD6E0A;
 }
 
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav a{
-    text-decoration: none;
-    color: #474747;
-}
-
 .btn-primary{
-    border-radius: 5px;
+    border-radius: 15px;
     background: #FD6E0A;
     border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 15px;
+    padding: 18px 25px;
 
 }
 
@@ -35,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -45,4 +37,34 @@ nav{
 
 nav> ul{
     display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/*header*/
+header{
+    background-color: #FFF8F3;;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 584px;
+    height: 576px;
+    flex-shrink: 0;
+    padding-left: 150px;
 }
