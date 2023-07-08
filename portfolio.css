@@ -43,6 +43,8 @@ nav> ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
     
 }
 
@@ -53,13 +55,31 @@ nav a{
 
 /*header*/
 header{
-    background-color: #FFF8F3;;
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+}
+
+.banner-1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-2{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .banner .profile-pic{
@@ -67,4 +87,220 @@ header{
     height: 576px;
     flex-shrink: 0;
     padding-left: 150px;
+}
+
+.banner-3{
+    max-width: 585px;
+    max-height: 60px;
+}
+
+/*main*/
+.about{
+    margin: 200px 230px;
+    text-align: center;
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    max-height: 550px;
+    padding-bottom: 70px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.my-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.i-do{
+    text-align: center;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.i-do-info{
+    text-align: center;
+    margin: 0 300px;
+}
+
+.i-do-block{
+    padding-bottom: 30px;
+}
+
+.skills-block{
+    display: flex;
+    text-align: left;
+    margin: 0px 230px;
+    
+}
+
+.skills{
+    padding: 33px;
+    height: 377px;
+    width: 267px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+}
+
+.skill-dis{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;   
+    row-gap: 30px;
+}
+
+.skill-name{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*resume*/
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px 230px;
+}
+
+.heading-table{
+    display: flex;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume{
+    display: flex;
+    margin: 230px;
+    column-gap: 30px;
+}
+
+.heading-table{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 230;
+    text-align: left;
+
+}
+
+.resume-org{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.resume-time{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.resume-detail{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background: #FFF8F3;
+    margin-top: 100px;
+}
+
+.footer-mess{
+    color:  #181818;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-para{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 100px;
+}
+
+.footer-col{
+    width: 50%;
+}
+
+.contact input, textarea{
+    display: block;
+
+}
+
+.inp{
+    border-radius: 5px;
+    background: #FFF;
+    color:  #757575;
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.are{
+    border-radius: 5px;
+    background: #FFF;
+    color:  #757575;
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+}
+
+#submit{
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.social a{
+    margin-right: 25px;
 }
